@@ -1,3 +1,3 @@
-# quanta
+# Quanta
 
-A new Flutter project.
+Finance tracker mobile application
