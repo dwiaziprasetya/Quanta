@@ -212,7 +212,6 @@ Widget _buildTransactionItem({
     ),
     child: Row(
       children: [
-        // Ikon kiri
         Container(
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
@@ -222,8 +221,6 @@ Widget _buildTransactionItem({
           child: Icon(icon, color: iconColor),
         ),
         SizedBox(width: 12),
-
-        // Teks
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -239,8 +236,6 @@ Widget _buildTransactionItem({
             ],
           ),
         ),
-
-        // Amount dan tanggal
         Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
