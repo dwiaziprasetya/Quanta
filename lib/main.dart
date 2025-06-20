@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quanta/presentation/screens/home/home_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,8 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Quanta App Guys'))),
-    );
+    return const MaterialApp(home: HomeScreen());
   }
 }
