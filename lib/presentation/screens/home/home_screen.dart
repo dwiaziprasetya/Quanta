@@ -10,6 +10,12 @@ class HomeScreen extends StatelessWidget {
     return AnnotatedRegion(
       value: SystemUiOverlayStyle.light,
       child: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          shape: CircleBorder(),
+          backgroundColor: QuantaColors.blue.color,
+          child: Icon(Icons.add, color: Colors.white),
+        ),
         backgroundColor: Colors.grey[100],
         body: Column(
           children: [
