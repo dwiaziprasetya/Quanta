@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quanta/presentation/screens/home/home_screen.dart';
 import 'package:quanta/presentation/screens/transaction/transaction_screen.dart';
 
 void main() {
