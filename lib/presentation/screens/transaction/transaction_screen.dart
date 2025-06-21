@@ -14,7 +14,11 @@ class TransactionScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             'Transaction',
-            style: TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+              color: Colors.white,
+            ),
           ),
           backgroundColor: QuantaColors.blue.color,
         ),
